@@ -1,0 +1,8 @@
+select p.id 'product_id', i.name 'partner_name', pi2.reference_id 'partner_ref_id', p.enabled, pt.name_enum 'type_enum', p.name 'product_name', p.denomination 'denom', p.product_group_id 'group_id', pg.name 'group_name' , pp.masked_price 'default_price', pp.price 'price_after_discount', pp.cogs, p.order_number, pp.margin, pp.margin_type, pp.discount, pp.discount_type, pp.masked_fee 'default_fee', pp.fee, p.tag, p.description 
+from product p 
+join product_price pp on pp.product_id = p.id 
+join product_group pg on pg.id = p.product_group_id 
+join product_type pt on pt.id = p.product_type_id 
+join product_institution pi2 on pi2.product_id = p.id
+join institution i on i.id = pi2.institution_id
+order by "type_enum";
