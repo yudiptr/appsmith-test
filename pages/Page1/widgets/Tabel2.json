@@ -54,7 +54,7 @@
     "tag",
     "description"
   ],
-  "columnUpdatedAt": 1746795166133,
+  "columnUpdatedAt": 1747305665608,
   "columnWidthMap": {
     "new_default_price": 189,
     "old_default_price": 159,
@@ -86,67 +86,127 @@
       "key": "primaryColumns.product_id.computedValue"
     },
     {
+      "key": "primaryColumns.product_id.cellBackground"
+    },
+    {
       "key": "primaryColumns.partner_name.computedValue"
+    },
+    {
+      "key": "primaryColumns.partner_name.cellBackground"
     },
     {
       "key": "primaryColumns.partner_ref_id.computedValue"
     },
     {
+      "key": "primaryColumns.partner_ref_id.cellBackground"
+    },
+    {
       "key": "primaryColumns.enabled.computedValue"
+    },
+    {
+      "key": "primaryColumns.enabled.cellBackground"
     },
     {
       "key": "primaryColumns.type_enum.computedValue"
     },
     {
+      "key": "primaryColumns.type_enum.cellBackground"
+    },
+    {
       "key": "primaryColumns.product_name.computedValue"
+    },
+    {
+      "key": "primaryColumns.product_name.cellBackground"
     },
     {
       "key": "primaryColumns.denom.computedValue"
     },
     {
+      "key": "primaryColumns.denom.cellBackground"
+    },
+    {
       "key": "primaryColumns.group_id.computedValue"
+    },
+    {
+      "key": "primaryColumns.group_id.cellBackground"
     },
     {
       "key": "primaryColumns.group_name.computedValue"
     },
     {
+      "key": "primaryColumns.group_name.cellBackground"
+    },
+    {
       "key": "primaryColumns.default_price.computedValue"
+    },
+    {
+      "key": "primaryColumns.default_price.cellBackground"
     },
     {
       "key": "primaryColumns.price_after_discount.computedValue"
     },
     {
+      "key": "primaryColumns.price_after_discount.cellBackground"
+    },
+    {
       "key": "primaryColumns.cogs.computedValue"
+    },
+    {
+      "key": "primaryColumns.cogs.cellBackground"
     },
     {
       "key": "primaryColumns.order_number.computedValue"
     },
     {
+      "key": "primaryColumns.order_number.cellBackground"
+    },
+    {
       "key": "primaryColumns.margin.computedValue"
+    },
+    {
+      "key": "primaryColumns.margin.cellBackground"
     },
     {
       "key": "primaryColumns.margin_type.computedValue"
     },
     {
+      "key": "primaryColumns.margin_type.cellBackground"
+    },
+    {
       "key": "primaryColumns.discount.computedValue"
+    },
+    {
+      "key": "primaryColumns.discount.cellBackground"
     },
     {
       "key": "primaryColumns.discount_type.computedValue"
     },
     {
+      "key": "primaryColumns.discount_type.cellBackground"
+    },
+    {
       "key": "primaryColumns.default_fee.computedValue"
+    },
+    {
+      "key": "primaryColumns.default_fee.cellBackground"
     },
     {
       "key": "primaryColumns.fee.computedValue"
     },
     {
+      "key": "primaryColumns.fee.cellBackground"
+    },
+    {
       "key": "primaryColumns.tag.computedValue"
+    },
+    {
+      "key": "primaryColumns.tag.cellBackground"
     },
     {
       "key": "primaryColumns.description.computedValue"
     },
     {
-      "key": "primaryColumns.partner_name.cellBackground"
+      "key": "primaryColumns.description.cellBackground"
     }
   ],
   "dynamicPropertyPathList": [
@@ -155,9 +215,6 @@
     },
     {
       "key": "cellBackground"
-    },
-    {
-      "key": "primaryColumns.partner_name.cellBackground"
     }
   ],
   "dynamicTriggerPathList": [],
@@ -181,6 +238,8 @@
   "mobileRightColumn": 36,
   "mobileTopRow": 9,
   "needsErrorInfo": false,
+  "originalBottomRow": 113,
+  "originalTopRow": 66,
   "parentColumnSpace": 17.296875,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -189,7 +248,7 @@
       "alias": "cogs",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"cogs\"]))}}",
       "currencyCode": "USD",
@@ -223,7 +282,7 @@
       "alias": "default_fee",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"default_fee\"]))}}",
       "currencyCode": "USD",
@@ -257,7 +316,7 @@
       "alias": "default_price",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"default_price\"]))}}",
       "currencyCode": "USD",
@@ -291,7 +350,7 @@
       "alias": "denom",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"denom\"]))}}",
       "currencyCode": "USD",
@@ -325,7 +384,7 @@
       "alias": "description",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"description\"]))}}",
       "currencyCode": "USD",
@@ -359,7 +418,7 @@
       "alias": "discount",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"discount\"]))}}",
       "currencyCode": "USD",
@@ -393,7 +452,7 @@
       "alias": "discount_type",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"discount_type\"]))}}",
       "currencyCode": "USD",
@@ -427,7 +486,7 @@
       "alias": "enabled",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"enabled\"]))}}",
       "currencyCode": "USD",
@@ -461,7 +520,7 @@
       "alias": "fee",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"fee\"]))}}",
       "currencyCode": "USD",
@@ -495,7 +554,7 @@
       "alias": "group_id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"group_id\"]))}}",
       "currencyCode": "USD",
@@ -529,7 +588,7 @@
       "alias": "group_name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"group_name\"]))}}",
       "currencyCode": "USD",
@@ -563,7 +622,7 @@
       "alias": "margin",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"margin\"]))}}",
       "currencyCode": "USD",
@@ -597,7 +656,7 @@
       "alias": "margin_type",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"margin_type\"]))}}",
       "currencyCode": "USD",
@@ -631,7 +690,7 @@
       "alias": "order_number",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"order_number\"]))}}",
       "currencyCode": "USD",
@@ -665,7 +724,7 @@
       "alias": "partner_name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => (  typeof currentRow.partner_name !== typeof Query1.data[0].partner_name ? \"#ffe5e5\" : \"transparent\" ))}}",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"partner_name\"]))}}",
       "currencyCode": "USD",
@@ -699,7 +758,7 @@
       "alias": "partner_ref_id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"partner_ref_id\"]))}}",
       "currencyCode": "USD",
@@ -733,7 +792,7 @@
       "alias": "price_after_discount",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "number",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"price_after_discount\"]))}}",
       "currencyCode": "USD",
@@ -767,7 +826,7 @@
       "alias": "product_id",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_id\"]))}}",
       "currencyCode": "USD",
@@ -789,7 +848,7 @@
       "label": "product_id",
       "notation": "standard",
       "originalId": "product_id",
-      "sticky": "left",
+      "sticky": "",
       "textColor": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -801,7 +860,7 @@
       "alias": "product_name",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"product_name\"]))}}",
       "currencyCode": "USD",
@@ -835,7 +894,7 @@
       "alias": "tag",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"tag\"]))}}",
       "currencyCode": "USD",
@@ -869,7 +928,7 @@
       "alias": "type_enum",
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
-      "cellBackground": "",
+      "cellBackground": "{{}}",
       "columnType": "text",
       "computedValue": "{{Tabel2.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"type_enum\"]))}}",
       "currencyCode": "USD",

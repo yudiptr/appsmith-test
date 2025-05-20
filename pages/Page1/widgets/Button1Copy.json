@@ -14,6 +14,11 @@
       "key": "borderRadius"
     }
   ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
   "dynamicTriggerPathList": [
     {
       "key": "onClick"
@@ -31,7 +36,9 @@
   "mobileRightColumn": 35,
   "mobileTopRow": 4,
   "needsErrorInfo": false,
-  "onClick": "{{ValidateAndUpload.validateThenUpload()}}",
+  "onClick": "{{ValidateAndInsert.validateThenInsert(\"INSERT\")}}",
+  "originalBottomRow": 66,
+  "originalTopRow": 62,
   "parentColumnSpace": 21.1875,
   "parentId": "0",
   "parentRowSpace": 10,
